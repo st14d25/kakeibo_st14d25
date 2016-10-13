@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
-	int payments[5];
+	int earnings[5];
 	int i;
 
 	for(i = 0; i < 5; i++) {
 		printf("%d個目\n",i+1);
-		scanf("%d",&payments[i]);
+		scanf("%d",&earnings[i]);
 	}
 
-	printf("%d\n",payments[0] + payments[1] + payments[2] + payments[3] + payments[4] );
+	printf("%d\n",earnings[0] + earnings[1] + earnings[2] + earnings[3] + earnings[4] );
 
 	return 0;
 }
